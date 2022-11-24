@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color:gray;
+    width: 241px;px;
+    font-family: 'Fira sons',sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    width: 90vh;
+    margin: 72px;
+background-color: indianred;
+list-style: none;
+padding: 33px
+    
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    height: 68vh;
+    width: 80vh;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'source code pro',monospace;
+}
+.devimage{
+    height: 60px;
+    
+}
+.hello{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 50px;
+    color: green;
+}
+.moreabout{
+    font-size: 22px;
+    margin: top 23px;;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+.name{
+    color: gold;
+    font-family: 'Fira sons',sons sarif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+    color: chartreuse;
+}
+.buttons{
+    margin-top: 34px;
+    display: block;
+color: green;
+}
+.buttons button{
+    color: white;
+    background-color:dodgerblue ;
+    margin:0 3px ;
+    padding:9PX 4px ;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 22px;
+    cursor: pointer;
+
+}
+.contactform{
+font-family: 'source code pro',monospace;
+padding-top: 144px;
+padding bottom: 144px;
+text-align: center;
+
+
+}
+.contactform h1{
+
+    font-family: 'source code pro',monospace;
+    text-align: center;    
+}
+.contactform button{
+    text-align: center;
+    color: white;
+    background-color:dodgerblue ;
+    margin:0 3px ;
+    padding:9PX 4px ;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 22px;
+    cursor: pointer;
+}
+.h1{
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 23px;
+}
+.blogitem{
+    margin: 20px;
+    font-family: 'Fira sons',sans-serif;
+}
+
+.p{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.btn{
+    color: black;
+    background-color: blue;
+    display: inline;
+}.intro h2{
+    font-family: 'IBM Plex Mono', monospace;
+    margin:12px;
+}
+.intro p{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.skillcontainer{
+    margin: 12px;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+.hunderd{
+width: 265px;
+background-color: blueviolet;
+}
+.fifty{
+width: 125px;
+background-color: green;
+}
+.t5{
+width: 75px;
+background-color: yellow;
+}
+
+.projectcontainer{
+margin: 12px;
+ font-size: 28px;
+ color: chocolate;
+background-color: black;
+border: coral;
+align-items: center;
+display: flex;
+  
+}
+.project{
+    align-items: center;
+    font-size: 53px;
+    color: blueviolet;
+    display: flex;
+    margin: 56px;
+  }
+
+
+.projectitem1{
+    list-style: none;
+font-size: 19px;
+color: black;
+}
+
+.projectitem2{
+    list-style: none;
+font-size: 33px;
+color: brown;
+}
+.projectitem3{
+    list-style: none;
+font-size: 33px;
+color: brown;
+}
+.projectitem-p{
+    list-style: none;
+font-size: 22px;
+color: white;
+
+
+}
+.educationcontainer{
+    list-style: none;
+   color:darkmagenta;
+   font-size: 20px;
+  margin: 19px;
+  padding: 14px;
+}
+.educationitem1{
+    display: inline-table;
+    color:black;
+    background-color:darkslateblue;
+}
+
+.educationitem2{
+    display: inline-table;
+    color:black;
+    background-color:darkslateblue;
+}
+
+.educationitem3{
+    display: inline-table;
+    color:black;
+    background-color:darkslateblue;
+}
+
+
+ 
